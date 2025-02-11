@@ -1,34 +1,37 @@
 from dataclasses import dataclass, field
-from typing import List, Set
+from typing import List, Set, FrozenSet
 import unittest
 
 Account = List[str]
 
-@dataclass
+@dataclass(frozen=True)
 class User:
     name: str
-    email_addresses: Set[str] = field(default_factory=set)
+    email_addresses: FrozenSet[str] = field(default_factory=frozenset)
 
-def account_info(account: Account) -> tuple[str, Set[str]]:
-    return (account[0], account[1:])
+def account_info(account: Account) -> tuple[str, FrozenSet[str]]:
+    return (account[0], frozenset(account[1:]))
 
+def consolidateUsers(newUser: User, matchingUsers: List[User]) -> User:
+    all_emails = set(newUser.email_addresses)
+    for user in matchingUsers:
+        all_emails.update(user.email_addresses)
+    return User(newUser.name, frozenset(all_emails))
 
 def accountsMerge(accounts: List[List[str]]) -> List[List[str]]:
-    all_users: List[User] = []
+    all_users: Set[User] = set()
     emails_to_users: dict[str, User] = {}
     for account in accounts:
-        user, emails = account_info(account)
-        matching_user = None
+        name, emails = account_info(account)
+        matching_users = []
         for email in emails:
             if email in emails_to_users:
-                matching_user = emails_to_users[email]
-                break
-        if matching_user is None:
-            matching_user = User(user, set())
-            all_users.append(matching_user)
-        matching_user.email_addresses.update(emails)
-        for email in emails:
-            emails_to_users[email] = matching_user
+                matching_users.append(emails_to_users[email])
+        all_users.difference_update(matching_users)
+        consolidated = consolidateUsers(User(name, emails), matching_users)
+        all_users.add(consolidated)
+        for email in consolidated.email_addresses:
+            emails_to_users[email] = consolidated
     return [[user.name] + sorted(list(user.email_addresses)) for user in all_users]
 
 class TestAccountsMerge(unittest.TestCase):
