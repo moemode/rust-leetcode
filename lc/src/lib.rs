@@ -3,6 +3,7 @@ mod bintree_diameter;
 mod flood_fill;
 mod longest_nonrepeating_substring;
 mod longest_palindrome;
+mod reverse_llist;
 mod search_rotated;
 mod subsets;
 mod two_sum;
