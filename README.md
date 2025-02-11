@@ -31,7 +31,7 @@ A curated list of 75 essential LeetCode problems organized by week and difficult
 | 5  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)          | Easy      | 20 min| 🔄     |                                             |
 | 6  | [Majority Element](https://leetcode.com/problems/majority-element)                | Easy      | 20 min| 🔄     |                                             |
 | 7  | [Add Binary](https://leetcode.com/problems/add-binary)                            | Easy      | 15 min| 🔄     |                                             |
-| 8  | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree)  | Easy      | 30 min| 🔄     |                                             |
+| 8  | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree)  | Easy      | 30 min| ✅     | [Solution](./lc/src/bintree_diameter.rs) |
 | 9  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)| Easy    | 20 min| 🔄     |                                             |
 | 10 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)| Easy|15 min| 🔄     |                                             |
 | 11 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)            | Easy      | 15 min| 🔄     |                                             |
