@@ -1,11 +1,9 @@
-
-
 pub fn max_profit(prices: Vec<i32>) -> i32 {
     let (profit, _) = max_profit_indices(prices);
-    return profit;
+    profit
 }
 
-fn max_profit_indices(prices: Vec<i32>) -> (i32, Option<(usize, usize)>) {
+pub fn max_profit_indices(prices: Vec<i32>) -> (i32, Option<(usize, usize)>) {
     if prices.len() < 2 {
         return (0, None);
     }
@@ -32,23 +30,19 @@ fn max_profit_indices(prices: Vec<i32>) -> (i32, Option<(usize, usize)>) {
     }
 }
 
-fn main() {
-
-}
-
 #[cfg(test)]
 mod tests {
     use super::*;
 
     #[test]
     fn test_example_1() {
-        let prices = vec![7,1,5,3,6,4];
+        let prices = vec![7, 1, 5, 3, 6, 4];
         assert_eq!(max_profit_indices(prices), (5, Some((1, 4))));
     }
 
     #[test]
     fn test_example_2() {
-        let prices = vec![7,6,4,3,1];
+        let prices = vec![7, 6, 4, 3, 1];
         assert_eq!(max_profit_indices(prices), (0, None));
     }
 
@@ -75,6 +69,4 @@ mod tests {
         let prices = vec![4, 9];
         assert_eq!(max_profit_indices(prices), (5, Some((0, 1))));
     }
-
-
 }
