@@ -27,7 +27,7 @@ A curated list of 75 essential LeetCode problems organized by week and difficult
 | 1  | [First Bad Version](https://leetcode.com/problems/first-bad-version)              | Easy      | 20 min| 🔄     |                                             |
 | 2  | [Ransom Note](https://leetcode.com/problems/ransom-note)                          | Easy      | 15 min| 🔄     |                                             |
 | 3  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs)                  | Easy      | 20 min| 🔄     |                                             |
-| 4  | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome)            | Easy      | 20 min| 🔄     |                                             |
+| 4  | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome)            | Easy      | 20 min| ✅     | [Solution](./lc/src/longest_palindrome.rs) |
 | 5  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)          | Easy      | 20 min| 🔄     |                                             |
 | 6  | [Majority Element](https://leetcode.com/problems/majority-element)                | Easy      | 20 min| 🔄     |                                             |
 | 7  | [Add Binary](https://leetcode.com/problems/add-binary)                            | Easy      | 15 min| 🔄     |                                             |
