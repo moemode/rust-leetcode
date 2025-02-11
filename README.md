@@ -67,7 +67,7 @@ A curated list of 75 essential LeetCode problems organized by week and difficult
 
 | No | Problem                                                                           | Difficulty | Time | Status | Solution                                    |
 |----|-----------------------------------------------------------------------------------|-----------|------|--------|---------------------------------------------|
-| 1  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)| Medium|30 min| 🔄     |                                             |
+| 1  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)| Medium|30 min|  ✅     | [Solution](./lc/src/search_rotated.rs) |
 | 2  | [Combination Sum](https://leetcode.com/problems/combination-sum)                  | Medium    | 30 min| 🔄     |                                             |
 | 3  | [Permutations](https://leetcode.com/problems/permutations)                        | Medium    | 30 min| 🔄     |                                             |
 | 4  | [Merge Intervals](https://leetcode.com/problems/merge-intervals)                  | Medium    | 30 min| 🔄     |                                             |
