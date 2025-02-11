@@ -8,7 +8,7 @@ A curated list of 75 essential LeetCode problems organized by week and difficult
 |----|-----------------------------------------------------------------------------------|-----------|-------|--------|---------------------------------------------|
 | 1  | [Two Sum](https://leetcode.com/problems/two-sum)                                  | Easy      | 15 min| ✅    | [Solution](./lc/src/best_time_stock.rs)                                            |
 | 2  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)              | Easy      | 20 min| ✅    | [Solution](./lc/src/valid_parentheses.rs)                                            |
-| 3  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)    | Easy      | 20 min| 🔄     |                                             |
+| 3  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)    | Easy      | 20 min|  ✅    | [Solution](./lc/src/merge_sorted.rs) |
 | 4  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)| Easy|20 min| ✅    | [Solution](./lc/src/best_time_stock.rs) |
 | 5  | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)                | Easy      | 15 min| 🔄     |                                             |
 | 6  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)            | Easy      | 15 min| 🔄     |                                             |
