@@ -8,7 +8,8 @@
             "rust-lang.rust",
             "rust-lang.rust-analyzer",
             "github.copilot-chat",
-            "github.copilot"
+            "github.copilot",
+            "ms-python.python"
         ],
         "vscode": {
             "settings": {
