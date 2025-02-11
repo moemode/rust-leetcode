@@ -14,7 +14,7 @@ A curated list of 75 essential LeetCode problems organized by week and difficult
 | 6  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)            | Easy      | 15 min| 🔄     |                                             |
 | 7  | [Valid Anagram](https://leetcode.com/problems/valid-anagram)                      | Easy      | 15 min| 🔄     |                                             |
 | 8  | [Binary Search](https://leetcode.com/problems/binary-search)                      | Easy      | 15 min| 🔄     |                                             |
-| 9  | [Flood Fill](https://leetcode.com/problems/flood-fill)                            | Easy      | 20 min| 🔄     |                                             |
+| 9  | [Flood Fill](https://leetcode.com/problems/flood-fill)                            | Easy      | 20 min| ✅     | [Solution](./lc/src/flood_fill.rs) |
 | 10 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)| Easy|20 min| 🔄     |                                             |
 | 11 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)        | Easy      | 15 min| 🔄     |                                             |
 | 12 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)              | Easy      | 20 min| 🔄     |                                             |
