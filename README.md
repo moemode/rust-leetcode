@@ -44,7 +44,7 @@ A curated list of 75 essential LeetCode problems organized by week and difficult
 | 1  | [Insert Interval](https://leetcode.com/problems/insert-interval)                  | Medium    | 25 min| 🔄     |                                             |
 | 2  | [01 Matrix](https://leetcode.com/problems/01-matrix)                              | Medium    | 30 min| 🔄     |                                             |
 | 3  | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)| Medium|30 min| 🔄     |                                             |
-| 4  | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)| Medium|30 min| 🔄     |                                             |
+| 4  | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)| Medium|30 min| ✅     | [Solution](./lc/src/longest_nonrepeating_substring.rs) |
 | 5  | [3Sum](https://leetcode.com/problems/3sum)                                        | Medium    | 30 min| 🔄     |                                             |
 | 6  | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)| Medium|20 min| 🔄     |                                             |
 | 7  | [Clone Graph](https://leetcode.com/problems/clone-graph)                          | Medium    | 25 min| 🔄     |                                             |
