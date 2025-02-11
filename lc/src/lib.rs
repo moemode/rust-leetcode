@@ -5,3 +5,5 @@ mod longest_nonrepeating_substring;
 mod longest_palindrome;
 mod search_rotated;
 mod subsets;
+mod two_sum;
+mod valid_parentheses;
