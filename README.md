@@ -84,7 +84,7 @@ A curated list of 75 essential LeetCode problems organized by week and difficult
 | 2  | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum)| Medium|30 min| 🔄     |                                             |
 | 3  | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)  | Medium    | 25 min| 🔄     |                                             |
 | 4  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix)                      | Medium    | 25 min| 🔄     |                                             |
-| 5  | [Subsets](https://leetcode.com/problems/subsets)                                  | Medium    | 30 min| 🔄     |                                             |
+| 5  | [Subsets](https://leetcode.com/problems/subsets)                                  | Medium    | 30 min| ✅     | [Solution](./lc/src/subsets.rs) |
 | 6  | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)| Medium|20 min| 🔄     |                                             |
 | 7  | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)| Medium|25 min| 🔄     |                                             |
 | 8  | [Unique Paths](https://leetcode.com/problems/unique-paths)                        | Medium    | 20 min| 🔄     |                                             |
