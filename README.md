@@ -132,3 +132,7 @@ A curated list of 75 essential LeetCode problems organized by week and difficult
 | 151  | [Reverse words in a string](https://leetcode.com/problems/reverse-words-in-a-string)| Medium|| 🔄     | [Solution](./lc/src/reverse_words.rs) |
 |1657| [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close) | Medium | | ✅     | [Solution](./py/close_strings.py) |
 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | Medium | | ✅ | [Solution](./py/equal_pairs.py) |
+| 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) | Medium | | ✅ | [Solution](./py/bintree_right.py) |
+| 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) | Medium | | ✅ | [Solution](./py/trie.py) |
+| 1268 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system) | Medium | | ✅ | [Solution](./py/search_suggestions.py) |
+

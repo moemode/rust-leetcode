@@ -7,9 +7,10 @@
         "extensions": [
             "rust-lang.rust",
             "rust-lang.rust-analyzer",
-            "github.copilot-chat",
-            "github.copilot",
-            "ms-python.python"
+            "github.copilot-chat@prerelease",
+            "github.copilot@prerelease",
+            "ms-python.python@prerelease",
+            "ms-python.black-formatter@prerelease"
         ],
         "vscode": {
             "settings": {
