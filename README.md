@@ -131,3 +131,4 @@ A curated list of 75 essential LeetCode problems organized by week and difficult
 | 1161  | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)| Medium|| ✅     | [Solution](./lc/src/max_level_sum.rs) |
 | 151  | [Reverse words in a string](https://leetcode.com/problems/reverse-words-in-a-string)| Medium|| 🔄     | [Solution](./lc/src/reverse_words.rs) |
 |1657| [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close) | Medium | | ✅     | [Solution](./py/close_strings.py) |
+| 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | Medium | | ✅ | [Solution](./py/equal_pairs.py) |
