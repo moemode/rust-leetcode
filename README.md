@@ -135,4 +135,5 @@ A curated list of 75 essential LeetCode problems organized by week and difficult
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) | Medium | | ✅ | [Solution](./py/bintree_right.py) |
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) | Medium | | ✅ | [Solution](./py/trie.py) |
 | 1268 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system) | Medium | | ✅ | [Solution](./py/search_suggestions.py) |
+| 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals)      | Medium |  |✅ | [Solution](./py/non_overlapping_intervals.py) |
 
