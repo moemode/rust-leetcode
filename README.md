@@ -137,3 +137,9 @@ A curated list of 75 essential LeetCode problems organized by week and difficult
 | 1268 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system) | Medium | | ✅ | [Solution](./py/search_suggestions.py) |
 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals)      | Medium |  |✅ | [Solution](./py/non_overlapping_intervals.py) |
 
+
+# Others
+
+| No | Problem                                                                           | Difficulty | Time | Status | Solution                                    |
+|----|-----------------------------------------------------------------------------------|-----------|------|--------|---------------------------------------------|
+| 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum) | Medium |  | ⚠️  | [Solution](./py/can_partition.py) |
